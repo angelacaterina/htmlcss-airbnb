@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+div.city{
+  width: 400px;
+  height: 300px;
+  box-shadow: 5px 5px 5px #777777;
+  position: relative;
+  text-align: center;
+}
+
+#roma{
+  background-image: url("../img/roma.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 3px 3px #111111;
+}
+
+.city_name{
+  width: 100%;
+  padding: 10px;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  transform: translate(-50%,-50%);
+
+}
