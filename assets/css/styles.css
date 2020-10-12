@@ -2,25 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Varela Round', sans-serif;
 }
 
-.container{
-  height: 100vh;
-  margin: 20px;
-}
-
-div.city{
-  width: 400px;
-  height: 250px;
-  margin: 10px;
-  box-shadow: 5px 5px 5px #777777;
-  position: relative;
-  text-align: center;
-  background: no-repeat center;
-  background-size: cover;
-}
-
+/* utility bg */
 #roma{
   background-image: url("../img/roma.jpg");
 }
@@ -32,17 +17,39 @@ div.city{
 #milano{
   background-image: url("../img/Milano.jpg");
 }
+/* /utility bg */
+
+body{
+  background: rgb(228, 205, 180);
+}
+
+.container{
+  width: 400px;
+  margin: auto;
+}
+
+div.city{
+  width: 400px;
+  height: 250px;
+  margin: 10px 0;
+  box-shadow: 5px 5px 5px #777777;
+  position: relative;
+  text-align: center;
+  background: no-repeat center;
+  background-size: cover;
+}
 
 .city_name{
   width: 100%;
   padding: 10px;
   font-size: 40px;
+  font-weight: 400;
   color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-shadow: 3px 3px #111111;
-  background: rgba(153, 153, 153, 0.5);
+  background: rgba(228, 205, 180, 0.6);
   text-transform: uppercase;
 }
